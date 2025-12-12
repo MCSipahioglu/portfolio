@@ -1,10 +1,10 @@
 /*LOGOS*/
 #logo_wrapper{
-    width: 45.5vmin;    /* 3.5*(7+6)=45.5 It looks like there is 1 image gap between each image*/
+    width: 18.5vmin;    /* 3.5*(3+(3-1))=18.5 It looks like there is 1 image gap between each image*/
     height: 5vmin;
 
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     justify-items: center;
     align-items: center;
 

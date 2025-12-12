@@ -37,6 +37,7 @@
 }
 
 #swatch_roboticist{
+    transform:rotate(calc(var(--swatch_angle_step) * 0));
 }
 #swatch_button_roboticist:hover {
     color: var(--swatch_red);
@@ -47,8 +48,9 @@
                     0 0 300px var(--swatch_red);
 }
 
+
 #swatch_botsmith{
-    transform:rotate(var(--swatch_angle_step));
+    transform:rotate(calc(var(--swatch_angle_step) * 1));
 }
 #swatch_button_botsmith:hover {
     color: var(--swatch_purple);
@@ -58,6 +60,7 @@
                     0 0 200px var(--swatch_purple),
                     0 0 300px var(--swatch_purple);
 }
+
 
 #swatch_designer{
     transform:rotate(calc(var(--swatch_angle_step) * 2));
@@ -71,10 +74,10 @@
                     0 0 300px var(--swatch_orange);
 }
 
-#swatch_academic{
+#swatch_strategist{
     transform:rotate(calc(var(--swatch_angle_step) * 3));
 }
-#swatch_button_academic:hover {
+#swatch_button_strategist:hover {
     color: var(--swatch_turqoise);
     text-shadow:    0 0 50px var(--swatch_turqoise),
                     0 0 100px var(--swatch_turqoise),
@@ -82,6 +85,7 @@
                     0 0 200px var(--swatch_turqoise),
                     0 0 300px var(--swatch_turqoise);
 }
+
 
 #swatch_traveller{
     transform:rotate(calc(var(--swatch_angle_step) * 4));

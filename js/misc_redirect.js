@@ -34,11 +34,3 @@ function CVDeactivate(){
 function LinkedinRedirect(){
     window.open("https://www.linkedin.com/in/m-cagatay-sipahioglu/");   
 }
-
-function SpotifyRedirect(){
-    window.open("https://open.spotify.com/user/3vtfr86epc3xp59zelwn51nm1?si=3f3427fe27e546e3");   
-}
-
-function InstagramRedirect(){
-    window.open("https://www.instagram.com/mcsipahioglu/");   
-}

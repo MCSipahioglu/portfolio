@@ -2,14 +2,14 @@ const e_blanket=[
     document.getElementById("project_page_roboticist_blanket"),
     document.getElementById("project_page_botsmith_blanket"),
     document.getElementById("project_page_designer_blanket"),
-    document.getElementById("project_page_academic_blanket"),
+    document.getElementById("project_page_strategist_blanket"),
     document.getElementById("project_page_traveller_blanket")];      //Append when new page.
 
 const e_return_button=[
     document.getElementById("project_page_return_button_roboticist"),
     document.getElementById("project_page_return_button_botsmith"),
     document.getElementById("project_page_return_button_designer"),
-    document.getElementById("project_page_return_button_academic"),
+    document.getElementById("project_page_return_button_strategist"),
     document.getElementById("project_page_return_button_traveller")];
 
     

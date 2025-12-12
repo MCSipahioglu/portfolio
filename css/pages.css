@@ -17,7 +17,7 @@
 
 }
 
-#page_roboticist, #page_botsmith, #page_designer, #page_academic{
+#page_roboticist, #page_botsmith, #page_designer, #page_strategist{
     -ms-overflow-style: none; /* for Internet Explorer, Edge */
     scrollbar-width: none; /* for Firefox */
     overflow-y: scroll;
@@ -29,7 +29,7 @@
     overflow: hidden;
 }
 
-#page_roboticist::-webkit-scrollbar, #page_botsmith::-webkit-scrollbar, #page_designer::-webkit-scrollbar, #page_academic::-webkit-scrollbar, #page_traveller::-webkit-scrollbar {
+#page_roboticist::-webkit-scrollbar, #page_botsmith::-webkit-scrollbar, #page_designer::-webkit-scrollbar, #page_strategist::-webkit-scrollbar, #page_traveller::-webkit-scrollbar {
     display: none; /* for Chrome, Safari, and Opera */
 }
 
@@ -76,7 +76,7 @@
     box-shadow: 0 0 10vmin var(--swatch_orange);
 }
 
-.project_container_academic:hover{
+.project_container_strategist:hover{
     background-color: var(--swatch_turqoise);
     box-shadow: 0 0 10vmin var(--swatch_turqoise);
 }
@@ -278,13 +278,13 @@ td{
 
 
 
-/* ACADEMIC PAGE */
-.header_academic{
+/* STRATEGIST PAGE */
+.header_strategist{
     color: var(--swatch_turqoise);
     text-shadow: 0 0 50px var(--swatch_turqoise);
 }
 
-#project_page_academic_blanket{
+#project_page_strategist_blanket{
     background-color: var(--swatch_turqoise);
 }
 
@@ -341,6 +341,7 @@ td{
 
 #world_map{
     transform-origin: 0 0;
+
     
 }
 
@@ -354,12 +355,8 @@ svg path:hover{
     fill: var(--swatch_green);
 }
 
-#TR, #EG, #IT, #CH, #FR, #DE, #AT, #HU, #PL, #DK, #SE, #MC, #ES, #NL, #BE, #LU, #CZ, #VA, #LV, #LT, #FI, #EE, #RU, #PT{
+#TR, #EG, #IT, #CH, #FR, #DE, #AT, #HU, #PL, #DK, #SE, #MC, #ES, #NL, #BE, #LU, #CZ, #VA, #LV, #LT, #FI, #EE, #RU, #PT, #GR, #BG, #RO, #RS, #HR, #SI, #BA, #ME{
     fill: var(--swatch_green);
-}
-
-:where(#TR, #EG, #IT, #CH, #FR, #DE, #AT, #HU, #PL, #DK, #SE, #MC, #ES, #NL, #BE, #LU, #CZ, #VA, #LV, #LT, #FI, #EE, #RU, #PT):hover{
-    cursor: pointer;
 }
 
 

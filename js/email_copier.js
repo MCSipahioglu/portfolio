@@ -4,6 +4,7 @@ const e_email_wrapper=document.getElementById("email_wrapper");
 const e_email=document.getElementById("email");
 
 const email="mcsipahioglu@gmail.com"
+const email_msg="E-mail copied to the clipboard!"
 
 e_logo_email.onclick = function() {EmailActivate()};
 

@@ -29,7 +29,7 @@ const e_n=[
     document.getElementById("navbar_menu_roboticist"),
     document.getElementById("navbar_menu_botsmith"),
     document.getElementById("navbar_menu_designer"),
-    document.getElementById("navbar_menu_academic"),
+    document.getElementById("navbar_menu_strategist"),
     document.getElementById("navbar_menu_traveller")];      //Append the new element here.
 
 //Pages to activate
@@ -37,7 +37,7 @@ let e_p;
 page_names=["page_roboticist",
             "page_botsmith",
             "page_designer",
-            "page_academic",
+            "page_strategist",
             "page_traveller"];             //Append the new element here.]
 const page_count=5;                                         //Add 1 here.
 

@@ -86,7 +86,7 @@
         box-shadow: 0 0 12.5vmin var(--swatch_orange);
     }
 
-    .project_container_academic{
+    .project_container_strategist{
         background-color: var(--swatch_turqoise);
         box-shadow: 0 0 12.5vmin var(--swatch_turqoise);
     }
@@ -106,7 +106,7 @@
         box-shadow: 0 0 12.5vmin var(--swatch_orange);
     }
 
-    .project_container_academic:hover{
+    .project_container_strategist:hover{
         background-color: var(--swatch_turqoise);
         box-shadow: 0 0 12.5vmin var(--swatch_turqoise);
     }
@@ -208,7 +208,7 @@
 
 
 
-    /* ACADEMIC */
+    /* STRATEGIST */
  
     
 

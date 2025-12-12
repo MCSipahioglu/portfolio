@@ -18,7 +18,7 @@ function MobileSidebarToggle(){
 
     //Activate
     if(sidebar_active==0){
-        sidebar_active=1;           //For typeacademic effect, when coming to screen step by step, when going out of screen all at once.
+        sidebar_active=1;           //For typestrategist effect, when coming to screen step by step, when going out of screen all at once.
         em_logo_dots.style.transform="rotate(+180deg)";
         em_logo_lang.style.transitionDelay="calc(var(--sidebar_delay_step) * 1)";
         em_logo_email.style.transitionDelay="calc(var(--sidebar_delay_step) * 2)";

@@ -11,7 +11,7 @@ const e_mn=[
     document.getElementById("mobile_menu_roboticist"),
     document.getElementById("mobile_menu_botsmith"),
     document.getElementById("mobile_menu_designer"),
-    document.getElementById("mobile_menu_academic"),
+    document.getElementById("mobile_menu_strategist"),
     document.getElementById("mobile_menu_traveller")];      //Append the new element here.
 
 
@@ -21,7 +21,7 @@ const e_mn=[
 document.getElementById("mobile_roboticist").onclick = function() {LandingRedirectMobile(0)};
 document.getElementById("mobile_botsmith").onclick   = function() {LandingRedirectMobile(1)};
 document.getElementById("mobile_designer").onclick   = function() {LandingRedirectMobile(2)};
-document.getElementById("mobile_academic").onclick     = function() {LandingRedirectMobile(3)};
+document.getElementById("mobile_strategist").onclick     = function() {LandingRedirectMobile(3)};
 document.getElementById("mobile_traveller").onclick  = function() {LandingRedirectMobile(4)};
 
 document.getElementById("mobile_header").onclick     = function() {ReturnToLandingMobile()};

@@ -94,6 +94,10 @@ function MapMouseUp(event){
 
 
 function MapZoom(event){
+    // Ignore horizontal scroll (side scroll wheel)
+    if (Math.abs(event.deltaX) > Math.abs(event.deltaY)) {
+        return; 
+    }
     prev_zoom=zoom;
     if(event.deltaY>0 && (zoom-prev_zoom*zoom_speed<min_zoom)){         //Don't try to zoom out if we are maxed zoomed out.
         zoom=min_zoom;                                                  //In this case just go to the initial zoom & centered scale.
@@ -135,4 +139,7 @@ function MapZoom(event){
 function MapUpdate(){
     const matrix = `matrix(${translate.scale},0,0,${translate.scale},${translate.translateX},${translate.translateY})`;
     e_map.style.transform = matrix;
+
+
   };
+
